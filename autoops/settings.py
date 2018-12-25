@@ -98,7 +98,7 @@ WSGI_APPLICATION = 'autoops.wsgi.application'
 #         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 #     }
 # }
-
+'''
 DATABASES = {
      'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -108,6 +108,18 @@ DATABASES = {
         'HOST': '192.168.10.125',
         'PORT': '6446',
      }
+}
+'''
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'AXESDatabases',
+        'USER': 'root',
+        'PASSWORD': 'r#dcenter9',
+        'HOST': '10.139.32.109',
+        'PORT': '3306',
+    }
 }
 
 

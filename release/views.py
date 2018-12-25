@@ -16,8 +16,8 @@ from guardian.core import ObjectPermissionChecker
 from names.password_crypt import decrypt_p
 from tasks.models import history
 
-from   tasks.ansible_2420.runner import AdHocRunner
-from  tasks.ansible_2420.inventory import BaseInventory
+# from   tasks.ansible_2420.runner import AdHocRunner
+# from  tasks.ansible_2420.inventory import BaseInventory
 
 
 class ReleaseListAll(TemplateView):

@@ -14,8 +14,8 @@ from django.views.generic import TemplateView, ListView, View, CreateView, Updat
 
 
 
-from   tasks.ansible_2420.runner import AdHocRunner, CommandRunner
-from  tasks.ansible_2420.inventory import BaseInventory
+# from   tasks.ansible_2420.runner import AdHocRunner, CommandRunner
+# from  tasks.ansible_2420.inventory import BaseInventory
 
 
 from  autoops import settings
