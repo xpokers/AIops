@@ -1,5 +1,8 @@
 ## AutoOps
 
+
+##测试本次修改
+
 AutoOps 是一款基于 2.0 版本django开发的，主要面向linux运维工程师使用,管理linux资产信息，Mysql数据库，批量执行命令、脚本,获取流量图，web ssh管理，技术文档等功能。
 
 欢迎大家测试使用，有问题可反馈。
@@ -286,7 +289,3 @@ root         /opt/autoops;
 ![DEMO](static/demo/7.png)
 
 
-### 贡献者
-
-#### 1.0
-- 何全
